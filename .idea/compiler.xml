@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="first-spring-boot-starter" />
+        <module name="memecached-spring-boot-starter" />
+        <module name="mybatisplus" />
+        <module name="memecache-run" />
+        <module name="ware-websocket" />
+        <module name="ware-memecache" />
+        <module name="ware-rocketmq" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="first-spring-boot-starter" options="-parameters" />
+      <module name="memecache-run" options="-parameters" />
+      <module name="memecached-spring-boot-starter" options="-parameters" />
+      <module name="mybatisplus" options="-parameters" />
+      <module name="ware-memecache" options="-parameters" />
+      <module name="ware-rocketmq" options="-parameters" />
+      <module name="ware-websocket" options="-parameters" />
+    </option>
+  </component>
+</project>

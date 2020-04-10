@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ware-memecache
+
+memecache:
+  ip: 172.30.66.86
+  port: 11211
+
+
+
+
+customer:
+  name: quwei

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiuwei</groupId>
+        <artifactId>middleware</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <groupId>com.qiuwei</groupId>
+    <artifactId>ware-rocketmq</artifactId>
+    <version>1.0.0</version>
+    <name>ware-rocketmq</name>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+        <rocketmq-client.version>4.2.0</rocketmq-client.version>
+    </properties>
+
+    <dependencies>
+        <!--rocketmq -->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>${rocketmq-client.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

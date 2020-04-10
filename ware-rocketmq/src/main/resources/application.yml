@@ -1,0 +1,21 @@
+###producer
+rocketmq:
+  producer:
+    groupName: 'ware-rocketmq-producer'
+    namesrvAddr: 172.30.66.86:9876
+    maxMessageSize: 4194304
+    sendMsgTimeout: 3000
+    retryTimesWhenSendFailed: 2
+  consumer:
+    groupName: 'ware-rocketmq-consumer'
+    namesrvAddr: 172.30.66.86:9876
+    topics: test-mq:*
+    consumeThreadMin: 20
+    consumeThreadMax: 64
+    consumeMessageBatchMaxSize: 1
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ware-rocketmq

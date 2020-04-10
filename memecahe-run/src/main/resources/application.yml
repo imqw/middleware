@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: memecache-run
+
+memecache:
+  ip: 127.0.0.1
+  port: 11211
