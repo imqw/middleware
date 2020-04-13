@@ -1,12 +1,13 @@
 package com.qiuwei.rocketmq.util;
 
-import org.apache.rocketmq.client.consumer.DefaultMQPullConsumer;
+import org.apache.rocketmq.client.consumer.*;
 import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.impl.consumer.PullResultExt;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.apache.rocketmq.common.message.MessageQueue;
+import org.apache.rocketmq.common.protocol.heartbeat.MessageModel;
 import org.apache.rocketmq.remoting.exception.RemotingException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +21,6 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- *
  * 消息队列拉取模式pull 消费单元测试
  *
  * @Author: qiuwei@19pay.com.cn
@@ -177,5 +177,75 @@ public class CustomerPullModelTest {
         if (offset != null)
             return offset;
         return 0;
+    }
+
+
+    /**
+     * 拉取消费吧offset保存在服务端
+     */
+
+    @Test
+    public void consumerPullModelOffsetOnBroker() {
+
+        // 1. 实例化对象
+        final MQPullConsumerScheduleService scheduleService = new MQPullConsumerScheduleService("GroupName1");
+
+        // 2. 设置NameServer
+        scheduleService.getDefaultMQPullConsumer().setNamesrvAddr(ADDR);
+        // 3. 设置消费组为集群模式
+        scheduleService.setMessageModel(MessageModel.CLUSTERING);
+
+        //4. 注册拉取回调函数
+
+        scheduleService.registerPullTaskCallback("TopicTest", new PullTaskCallback() {
+
+
+            @Override
+            public void doPullTask(MessageQueue mq, PullTaskContext context) {
+
+                // 5.从上下文中获取MQPullConsumer对象，此处其实就是DefaultMQPullConsumer。
+                MQPullConsumer consumer = context.getPullConsumer();
+
+                try {
+                    //6.获取该消费组的该队列的消费进度
+                    long offset = consumer.fetchConsumeOffset(mq, false);
+
+                    if (offset < 0) {
+                        offset = 0;
+                    }
+
+                    // 7.拉取消息，pull()方法在DefaultMQPullConsumer有具体介绍
+                    PullResult pullResult = consumer.pull(mq, "*", offset, 32);
+                    System.out.printf("%s%n", offset + "\t" + mq + "\t" + pullResult);
+
+                    switch (pullResult.getPullStatus()) {
+                        case FOUND:
+                            break;
+                        case NO_MATCHED_MSG:
+                            break;
+                        case NO_NEW_MSG:
+                        case OFFSET_ILLEGAL:
+                            break;
+                        default:
+                            break;
+                    }
+
+                    // 8.更新消费组该队列消费进度
+                    consumer.updateConsumeOffset(mq, pullResult.getNextBeginOffset());
+
+                    // 9.设置下次拉取消息时间间隔，单位毫秒
+                    context.setPullNextDelayTimeMillis(100);
+
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+
+                }
+
+
+            }
+        });
+
+
     }
 }
