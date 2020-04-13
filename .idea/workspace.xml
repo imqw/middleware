@@ -1,67 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c08be9-1fb3-4934-bddf-191eaf26b355" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecached-spring-boot-starter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecached-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecached-spring-boot-starter/src/main/java/com/qiuwei/memecachedstarter/MemecacheAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecached-spring-boot-starter/src/main/java/com/qiuwei/memecachedstarter/MemecacheProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecached-spring-boot-starter/src/main/java/com/qiuwei/memecachedstarter/MemecachedFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecached-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecahe-run/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecahe-run/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecahe-run/src/main/java/com/qiuwei/memecacherun/MemecacheRunApplicaiton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecahe-run/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memecahe-run/src/test/java/com/qiuwei/memecacherun/MemcachedFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/MyBatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/MybatisplusApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/MysqlGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/controller/MpUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/entity/MpUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/mapper/MpUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/service/MpUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/service/impl/MpUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/resources/mapper/MpUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/test/java/com/qiuwei/mybatisplus/service/MpUserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-memecache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-memecache/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-memecache/src/main/java/com/qiuwei/memecache/MemcacheSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-memecache/src/main/java/com/qiuwei/memecache/MemcachedFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-memecache/src/main/java/com/qiuwei/memecache/MemechcheAplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-memecache/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-memecache/src/test/java/com/qiuwei/memecache/MemcachedFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/java/com/qiuwei/rocketmq/MyMessageListenerConcurrently.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/java/com/qiuwei/rocketmq/RocketmqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/java/com/qiuwei/rocketmq/config/ConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/java/com/qiuwei/rocketmq/config/ProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/java/com/qiuwei/rocketmq/exception/RocketMQException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/java/com/qiuwei/rocketmq/util/ProducerMsgUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/main/resources/mapper/MpUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/CustomerPullModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/ProducerMsgUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/src/main/java/com/qiuwei/websocket/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/src/main/java/com/qiuwei/websocket/WebsocketApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/src/main/java/com/qiuwei/websocket/domain/SocketMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/src/main/java/com/qiuwei/websocket/handle/MyWebSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ware-websocket/src/main/resources/static/WebSocketTest.html" afterDir="false" />
+    <list default="true" id="c4c08be9-1fb3-4934-bddf-191eaf26b355" name="Default Changelist" comment="添加consumer消费端pull模式单元测试">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/src/main/java/com/qiuwei/lock/LockApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-lock/src/test/java/com/qiuwei/lock/LockApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/common-demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ware-websocket/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ware-websocket/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/memecahe-run/target/" />
@@ -72,6 +31,24 @@
     <ignored path="$PROJECT_DIR$/ware-memecache/target/" />
     <ignored path="$PROJECT_DIR$/memecached-spring-boot-starter/target/" />
     <ignored path="$PROJECT_DIR$/../../github-lean/first-springboot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/statistics-service/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/channel-query-service/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/common-library/code-generator/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/common-library/log/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/common-library/message-queue/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/common-library/protocol/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/channel-access/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/registry/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/common-library/util/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/deliver_goods_service/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/center-notify-service/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/deliver-goods-testing/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/common-library/target/" />
+    <ignored path="$PROJECT_DIR$/../../git/transaction/deliver-goods/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/common-demo/target/" />
+    <ignored path="$PROJECT_DIR$/ware-lock/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,33 +56,125 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/DemoTest.java">
+        <entry file="file://$PROJECT_DIR$/memecached-spring-boot-starter/src/main/java/com/qiuwei/memecachedstarter/MemecacheAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memecahe-run/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memecahe-run/src/test/java/com/qiuwei/memecacherun/MemcachedFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ware-websocket/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-demo/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/CustomerPullModelTest.java">
+        <entry file="file://$PROJECT_DIR$/ware-lock/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="544">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-plus/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ware-lock/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/CustomerPullModelTest.java" />
+        <option value="$PROJECT_DIR$/common-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/common-demo/src/test/java/com/qiuwei/demo/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/ware-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ware-websocket/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/common-demo/.gitignore" />
+        <option value="$PROJECT_DIR$/ware-lock/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -117,8 +186,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="middleware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="common-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middleware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="ware-lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -126,8 +215,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,7 +236,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerPullModelTest.pullMsg">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="CustomerPullModelTest.consumerPullModelOffsetOnBroker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ware-rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qiuwei.rocketmq.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qiuwei.rocketmq.util" />
+      <option name="MAIN_CLASS_NAME" value="com.qiuwei.rocketmq.util.CustomerPullModelTest" />
+      <option name="METHOD_NAME" value="consumerPullModelOffsetOnBroker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerPullModelTest.pullMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ware-rocketmq" />
       <extension name="coverage">
@@ -174,6 +285,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiuwei.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiuwei.lock.LockApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mybatisplus" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiuwei.mybatisplus.MybatisplusApplication" />
@@ -190,8 +315,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerPullModelTest.pullMsg" />
+        <item itemvalue="JUnit.CustomerPullModelTest.consumerPullModelOffsetOnBroker" />
         <item itemvalue="JUnit.CustomerPullModelTest.sendMsg" />
+        <item itemvalue="JUnit.CustomerPullModelTest.pullMsg" />
       </list>
     </recent_temporary>
   </component>
@@ -205,54 +331,108 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586505148726</updated>
-      <workItem from="1586505150128" duration="260000" />
+      <workItem from="1586505150128" duration="4381000" />
+      <workItem from="1586745526728" duration="1617000" />
+      <workItem from="1586756592241" duration="2275000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1586505473838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586505473838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加consumer消费端pull模式单元测试">
+      <created>1586756646755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586756646755</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化demo这个子项目">
+      <created>1586759386478</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586759386478</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CustomerPullModelTest_sendMsg - 2020.04.10 at 15h 53m 26s.xml">
+      <configuration name="CustomerPullModelTest.sendMsg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerPullModelTest_pullMsg - 2020.04.10 at 15h 53m 35s.xml">
+      <configuration name="CustomerPullModelTest.pullMsg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerPullModelTest_pullMsg - 2020.04.10 at 15h 54m 04s.xml">
+      <configuration name="CustomerPullModelTest.pullMsg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerPullModelTest_sendMsg - 2020.04.13 at 11h 08m 12s.xml">
+      <configuration name="CustomerPullModelTest.sendMsg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerPullModelTest_consumerPullModelOffsetOnBroker - 2020.04.13 at 11h 08m 27s.xml">
+      <configuration name="CustomerPullModelTest.consumerPullModelOffsetOnBroker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerPullModelTest_consumerPullModelOffsetOnBroker - 2020.04.13 at 11h 09m 04s.xml">
+      <configuration name="CustomerPullModelTest.consumerPullModelOffsetOnBroker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerPullModelTest_consumerPullModelOffsetOnBroker - 2020.04.13 at 11h 09m 32s.xml">
+      <configuration name="CustomerPullModelTest.consumerPullModelOffsetOnBroker" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260000" />
+    <option name="totallyTimeSpent" value="8273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27753934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5466102" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Jms Messenger" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Jms Messenger" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <MESSAGE value="添加consumer消费端pull模式单元测试" />
+    <MESSAGE value="初始化demo这个子项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化demo这个子项目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/DemoTest.java">
@@ -262,10 +442,185 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../git/transaction/common-library/message-queue/src/test/java/com/jiexun/transaction/common/message_queue/ProducerAgentRabbitMqTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../git/transaction/common-library/message-queue/src/test/java/com/jiexun/transaction/common/message_queue/ConsumerAgentKafkaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../git/transaction/common-library/message-queue/src/test/java/com/jiexun/transaction/common/message_queue/ConsumerMessagePumpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../git/transaction/statistics-service/src/main/java/com/jiexun/transaction/statistics_service/statistics/server/ConsumerServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../git/transaction/common-library/message-queue/src/test/java/com/jiexun/transaction/common/message_queue/ProducerHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0.jar!/org/apache/rocketmq/client/consumer/DefaultMQPullConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="204" column="22" selection-start-line="204" selection-start-column="22" selection-end-line="204" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/qiuwei/mybatisplus/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ware-rocketmq/src/test/java/com/qiuwei/rocketmq/util/CustomerPullModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="151">
+          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/test/java/com/qiuwei/mybatisplus/service/MpUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1007">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/mapper/MpUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memecached-spring-boot-starter/src/main/java/com/qiuwei/memecachedstarter/MemecacheProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memecached-spring-boot-starter/src/main/java/com/qiuwei/memecachedstarter/MemecachedFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memecached-spring-boot-starter/src/main/java/com/qiuwei/memecachedstarter/MemecacheAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memecahe-run/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ware-websocket/src/main/resources/static/WebSocketTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memecahe-run/src/test/java/com/qiuwei/memecacherun/MemcachedFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-demo/src/main/java/com/qiuwei/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-demo/src/test/java/com/qiuwei/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ware-lock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ware-websocket/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ware-lock/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>

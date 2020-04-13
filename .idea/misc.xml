@@ -6,7 +6,30 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../../github-lean/first-springboot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/common-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ware-lock/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../git/transaction/common-library/code-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/common-library/log/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/common-library/message-queue/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/common-library/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/common-library/protocol/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/common-library/util/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/center-notify-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/channel-access/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/channel-query-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/deliver-goods-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/deliver_goods_service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/deliver-goods/registry/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/../../git/transaction/statistics-service/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

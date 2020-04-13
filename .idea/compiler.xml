@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
         <module name="first-spring-boot-starter" />
+        <module name="lock" />
         <module name="memecached-spring-boot-starter" />
         <module name="mybatisplus" />
         <module name="memecache-run" />
@@ -15,10 +17,30 @@
         <module name="ware-rocketmq" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="center_notify_service" target="1.8" />
+      <module name="channel-access" target="1.5" />
+      <module name="channel_query_service" target="1.8" />
+      <module name="code-generator" target="1.8" />
+      <module name="common-library" target="1.8" />
+      <module name="deliver-goods" target="1.5" />
+      <module name="deliver_goods_service" target="1.8" />
+      <module name="deliver_goods_testing" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="log" target="1.7" />
+      <module name="message-queue" target="1.8" />
+      <module name="protocol" target="1.8" />
+      <module name="registry" target="1.8" />
+      <module name="statistics_service" target="1.8" />
+      <module name="transaction" target="1.5" />
+      <module name="util" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="first-spring-boot-starter" options="-parameters" />
+      <module name="lock" options="-parameters" />
       <module name="memecache-run" options="-parameters" />
       <module name="memecached-spring-boot-starter" options="-parameters" />
       <module name="mybatisplus" options="-parameters" />
