@@ -62,6 +62,8 @@
         <module>memecached-spring-boot-starter</module>
         <module>memecahe-run</module>
         <module>mybatis-plus</module>
+        <module>common-demo</module>
+        <module>ware-lock</module>
     </modules>
 </project>
 
