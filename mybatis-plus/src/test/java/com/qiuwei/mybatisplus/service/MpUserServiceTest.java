@@ -60,7 +60,7 @@ public class MpUserServiceTest {
 
 
     @Test
-    public void queryByparams() {
+    public void queryByParams() {
 
         // 条件查询，下面相当于xml中的 select * from mp_user where address = '"广东深圳' and username = 'David Hong' limit 1
         MpUser  mpUser = mpUserService.getOne(new QueryWrapper<MpUser>().eq("address", "广东深圳").eq("username", "David Hong").last("limit 1"));
@@ -70,10 +70,8 @@ public class MpUserServiceTest {
 
     @Test
     public void list() {
-
         // 批量查询
         List<MpUser> mpUserList = mpUserService.list();
-
         System.out.println(mpUserList.toString());
     }
 
