@@ -37,23 +37,16 @@ public class SwaggerConfig {
     @Bean
     public Docket createRestApi() {
 
-        //根据ApiOperation注解过滤显示的接口
-        Predicate<RequestHandler> predicate = requestHandler -> {
-            HandlerMethod handlerMethod = requestHandler.getHandlerMethod();
-            ApiOperation methodAnnotation = handlerMethod.getMethodAnnotation(ApiOperation.class);
-            if (methodAnnotation == null) {
-                return false;
-            }
-            String value = methodAnnotation.value();
-            if (value.contains(VERSION) || StringUtils.isBlank(VERSION)) {
-                return true;
-            }
-            return false;
-        };
+
+        /**
+         * 根据注解ApiOperation过滤需要生成的API接口
+         */
+
         Docket docket = new Docket(DocumentationType.SWAGGER_2);
-        docket.groupName("WXApi-V" + VERSION).apiInfo(apiInfo())
+        docket.groupName("类别一").apiInfo(apiInfo())
                 .select()
-                .apis(predicate)
+                //RequestHandlerSelectors.basePackage("com") 扫描对应包下面的接口
+                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
                 .paths(PathSelectors.any())
                 .build().globalOperationParameters(parameterBuilder());
         return docket;
@@ -62,7 +55,7 @@ public class SwaggerConfig {
     @Bean
     public Docket createRestApi2() {
         Docket docket = new Docket(DocumentationType.SWAGGER_2);
-        docket.groupName("WXApi").apiInfo(apiInfo())
+        docket.groupName("类别二").apiInfo(apiInfo())
                 .select()
                 .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
                 .paths(PathSelectors.any())
@@ -72,20 +65,27 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("WX Doc")
-                .description("WX Doc")
+                //标题
+                .title("书本项目API")
+                //描述
+                .description("这个是书本项目相关接口文档")
+                //条款地址
                 .termsOfServiceUrl("git@code.ziroom.com:rentbackend/WX.git")
-                .contact("Crazy_4J@163.com")
+                //版本
                 .version("1.0")
                 .build();
     }
 
 
+    /**
+     * 添加定制化的请求额外参数 如请求头 保函token 可以不配置直接去掉就行
+     * @return
+     */
     public List<Parameter> parameterBuilder() {
         //添加head参数
         ParameterBuilder tokenPar = new ParameterBuilder();
         List<Parameter> pars = new ArrayList<>();
-        tokenPar.name("access-token").description("令牌").modelRef(new ModelRef("string")).parameterType("header").required(false).build();
+        tokenPar.name("tokenId").description("票").modelRef(new ModelRef("string")).parameterType("header").required(false).build();
         pars.add(tokenPar.build());
         return pars;
     }
