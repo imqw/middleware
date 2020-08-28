@@ -68,6 +68,11 @@ public class BookController {
     }
 
 
+    /**
+     * 没集成数据库 简单模拟列表
+     * @param book
+     * @return
+     */
     private List<Book> getBook(Book book) {
         List<Book> books = new ArrayList<>();
 

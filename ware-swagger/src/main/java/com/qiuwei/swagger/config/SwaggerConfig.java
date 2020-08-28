@@ -1,12 +1,8 @@
 package com.qiuwei.swagger.config;
 
-import com.google.common.base.Predicate;
 import io.swagger.annotations.ApiOperation;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.method.HandlerMethod;
-import springfox.documentation.RequestHandler;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.ParameterBuilder;
 import springfox.documentation.builders.PathSelectors;
@@ -20,8 +16,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static javax.xml.transform.OutputKeys.VERSION;
 
 /**
  * Swagger配置类
@@ -70,7 +64,7 @@ public class SwaggerConfig {
                 //描述
                 .description("这个是书本项目相关接口文档")
                 //条款地址
-                .termsOfServiceUrl("git@code.ziroom.com:rentbackend/WX.git")
+                .termsOfServiceUrl("http://baidau.com")
                 //版本
                 .version("1.0")
                 .build();
@@ -78,7 +72,7 @@ public class SwaggerConfig {
 
 
     /**
-     * 添加定制化的请求额外参数 如请求头 保函token 可以不配置直接去掉就行
+     * 添加定制化的请求额外参数 如请求头 包含token 可以不配置直接去掉就行
      * @return
      */
     public List<Parameter> parameterBuilder() {
