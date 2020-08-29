@@ -1,6 +1,7 @@
 package com.qiuwei.swagger.config;
 
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -28,6 +29,10 @@ import java.util.List;
 public class SwaggerConfig {
 
 
+    @Value("${swagger.enable}")
+    private Boolean swaggerEnable;
+
+
     @Bean
     public Docket createRestApi() {
 
@@ -38,6 +43,8 @@ public class SwaggerConfig {
 
         Docket docket = new Docket(DocumentationType.SWAGGER_2);
         docket.groupName("类别一").apiInfo(apiInfo())
+                //是否开启标识
+                .enable(swaggerEnable)
                 .select()
                 //RequestHandlerSelectors.basePackage("com") 扫描对应包下面的接口
                 .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
@@ -50,6 +57,7 @@ public class SwaggerConfig {
     public Docket createRestApi2() {
         Docket docket = new Docket(DocumentationType.SWAGGER_2);
         docket.groupName("类别二").apiInfo(apiInfo())
+                .enable(swaggerEnable)
                 .select()
                 .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
                 .paths(PathSelectors.any())
