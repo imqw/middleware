@@ -1,13 +1,18 @@
-package com.qiuwei.mybatisplus.mapper;
+package com.qiuwei.mybatisplus.user.mapper;
 
+import com.qiuwei.mybatisplus.user.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.qiuwei.mybatisplus.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @Author: qiuweib@yonyou.com
- * @Date: 2020-09-19.
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author qiuwei
+ * @since 2020-09-19
  */
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
+
 }
