@@ -1,6 +1,11 @@
 package com.qiuwei.mybatisplus.user.entity;
 
 import java.io.Serializable;
+
+import com.baomidou.mybatisplus.annotation.EnumValue;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.qiuwei.mybatisplus.user.enums.SexEnum;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -13,10 +18,13 @@ import lombok.EqualsAndHashCode;
  * @since 2020-09-19
  */
 @Data
-@EqualsAndHashCode(callSuper = false)
-public class User implements Serializable {
+public class User  implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
+
+    @TableId(type = IdType.AUTO)
+    private Long id;
 
     /**
      * 姓名
@@ -32,6 +40,9 @@ public class User implements Serializable {
      * 邮箱
      */
     private String email;
+
+
+    private SexEnum sex;
 
 
 }
