@@ -4,7 +4,7 @@
 
     <select id="pageUser"  resultType="com.qiuwei.mybatisplus.user.entity.User">
 
-        SELECT * FROM user WHERE sex=#{sex}
+        SELECT id,name FROM user WHERE sex=#{sex}
     </select>
 
 </mapper>
