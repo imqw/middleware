@@ -19,5 +19,6 @@ spring:
     filters: stat,wall,log4j
     logSlowSql: true
 
+
 server:
   port: 8080

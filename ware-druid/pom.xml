@@ -10,9 +10,9 @@
 
 
     <groupId>com.qiuwei</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>druid</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>druid</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
