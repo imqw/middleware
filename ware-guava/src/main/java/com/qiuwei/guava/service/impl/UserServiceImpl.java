@@ -15,11 +15,11 @@ import java.util.concurrent.ConcurrentMap;
  * @Author: qiuweib@yonyou.com
  * @Date: 2020-11-28.
  */
-@Service
+//@Service
 @Slf4j
 public class UserServiceImpl implements UserService {
 
-    private final static Map<Long, User> USER_DB=new HashMap<>();
+    public final static Map<Long, User> USER_DB=new HashMap<>();
 
     @Autowired
     Cache<Long, Object> caffeineCache;
